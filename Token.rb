@@ -1,7 +1,7 @@
 
 class Token
 
-  def initialize(pattern, Symbol.kind)
+  def initialize(pattern, kind)
     @pattern = pattern
     @kind = kind
   end
@@ -23,4 +23,4 @@ class Token
   end
 
 
-$end
+end
